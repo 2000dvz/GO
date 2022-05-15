@@ -1,0 +1,59 @@
+/* CSS Document */
+
+@import "_vars";
+
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(50deg, #3E2723, transparent);
+    font-size: 15px;
+    line-height: 1.6;
+    color: $grau;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+
+
+
+@import "blocks/_header";
+@import "blocks/_container";
+@import "blocks/_intro";
+@import "blocks/_nav";
+@import "blocks/_slider";
+@import "blocks/_button";
+@import "blocks/_section";
+@import "blocks/_about";
+@import "blocks/_statistics";
+@import "blocks/_services";
+@import "blocks/_section--devices";
+@import "blocks/_wedo";
+@import "blocks/_section--gray";
+@import "blocks/_social";
+@import "blocks/_logos";
+@import "blocks/_works";
+@import "blocks/_section--clients";
+@import "blocks/_blog";
+@import "blocks/_section--map";
+@import "blocks/_footer";
+
+
+
+
+
+
+
+
+
+

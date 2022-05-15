@@ -1,0 +1,33 @@
+/* CSS Document */
+
+.statistics{
+    background-image: url(../img/body.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: $box;
+}
+.stat{
+    display: flex;
+}
+.stat__item{
+    flex: 1 1 0;
+    padding: 70px 25px;
+    border-left: 1px solid $grau;
+    text-align: center;
+    color: $gelb;
+}
+.stat__item:last-child{
+    border-right: 1px solid $grau;
+}
+.stat__count{
+    margin-bottom: 10px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+    color: $blud;
+}
+.stat__text{
+    font-size: 14px;
+    text-transform: uppercase;
+}

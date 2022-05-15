@@ -1,0 +1,49 @@
+/* CSS Document */
+
+
+/* Slider */
+.slider {
+    width: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.slider__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.slider__item {
+    width: 25%;
+    padding: 20px 0;
+    position: relative;
+    border-top: 3px solid $blu;
+    opacity: .7;
+    font-size: 18px;
+    color: $white;
+    text-transform: uppercase;
+}
+
+//.slider__item.active {
+   // opacity: 1;
+//}
+
+.slider__item.active:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: $gelb;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    z-index: 1;
+}
+
+.slider__num {
+    font-size: 24px;
+    font-weight: 700;
+    color: $blud;
+}

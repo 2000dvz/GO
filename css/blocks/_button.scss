@@ -1,0 +1,22 @@
+/* CSS Document */
+
+
+/* Button */
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    border: 3px solid $grau;
+    font-size: 14px;
+    font-weight: 700;
+    color: $white;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: $boxd;
+    cursor: pointer;
+    transition: background .1s linear, color .1s linear;
+        &:hover {
+            background-color: $rot;
+            color: $gelb;
+    }
+}
